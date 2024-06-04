@@ -112,7 +112,7 @@ function statsUpCount() {
 
     if (
         document.documentElement.scrollTop + 200 >= stateSection.offsetTop &&
-        document.documentElement.scrollTop + 200 <= stateSection.offsetTop + 40
+        document.documentElement.scrollTop + 200 <= stateSection.offsetTop + 50
       ){
     counters.forEach(function(counter) {
         var updateCount = function() {
